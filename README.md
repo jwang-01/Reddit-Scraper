@@ -1,1 +1,2 @@
 # Reddit-Scraper
+This is a Reddit scraper that goes through the following subreddits: r/k12sysadmin and r/k12cybersecurity. Reddit is a server where people around the world share their experiences in a certain topic, making it a possibly relevant sosurce to figuring out what teachers/tech admin themselves see and experience in school. To investigate the security issues regarding tech in k-12 education, the scraper provides the tools to go through hundreds of reddit posts regarding security issues and pull out the ones relevant to the research focus.  

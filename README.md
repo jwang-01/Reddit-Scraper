@@ -9,3 +9,7 @@ This is a Reddit scraper that goes through the following subreddits: r/k12sysadm
 3. Change post limit and keywords in the YAML file.
    The variables for post limit is POST_LIMIT and keywords is KEYWORDS.
 4. Run the code
+
+# Usage
+
+After running the code, all submission titles, comments, and the details of each post will be found in the JSON file. The full file path of the JSON file will be found at the bottom of the terminal. Data on the size of the JSON elemets will also be found in the output in the terminal. 

@@ -1,0 +1,3 @@
+praw
+fuzzywuzzy
+python-Levenshtein    # (optional) speeds up fuzzywuzzy; harmless to includepip install fuzzywuzzy

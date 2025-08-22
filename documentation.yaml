@@ -1,0 +1,29 @@
+CLIENT_ID: Jomt_btpXsBqac61X3cO_Q
+CLIENT_SECRET: BxnFNZ8VGgwjo2GYuE17EzmAHh8w2w
+COMMENT_LIMIT: 2
+POST_LIMIT: 30
+End Date: 2025-08-02 13:36:27.823893
+KEYWORDS:
+- cyber
+- firewall
+- network
+- security
+- k12
+- school
+- edtech
+- domain
+- block
+- ai
+- artifical
+- intelligence
+- vulnerabilities
+- issue
+- problem
+- difficulties
+OUTPUT_CSV: k12_firewall_posts.csv
+OUTPUT_JSON: k12_firewall_posts.json
+SUBREDDITS:
+- k12sysadmin
+- k12cybersecurity
+Start Date: 2025-01-01 00:00:00
+USER_AGENT: k12-cybersec-scraper/0.1 by TopEducator9706

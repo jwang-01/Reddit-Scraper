@@ -5,7 +5,7 @@ This is a Reddit scraper that goes through the following subreddits: r/k12sysadm
 
 1. Enter virtual environment
 2. Install requirements and packages
-   You can run the following code to install all the packages used in the code: pip install -r requirements txt .
+   You can run the following code to install all the packages used in the code: '''pip install -r requirements txt .'''
 3. Change post limit and keywords in the YAML file.
    The variables for post limit is POST_LIMIT and keywords is KEYWORDS.
 4. Run the code

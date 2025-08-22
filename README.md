@@ -6,9 +6,9 @@ This is a Reddit scraper that goes through the following subreddits: r/k12sysadm
 1. Enter virtual environment
 2. Install requirements and packages
    You can run the following code to install all the packages used in the code:
-   '''python
+   ```python
    pip install -r requirements txt .
-   '''
+   ```
 4. Change post limit and keywords in the YAML file.
    The variables for post limit is POST_LIMIT and keywords is KEYWORDS.
 5. Run the code
@@ -16,3 +16,45 @@ This is a Reddit scraper that goes through the following subreddits: r/k12sysadm
 # Usage
 
 After running the code, all submission titles, comments, and the details of each post will be found in the JSON file. The full file path of the JSON file will be found at the bottom of the terminal. Data on the size of the JSON elemets will also be found in the output in the terminal. 
+
+#Example Configurations
+
+Only maximum of 20 posts and 2 comments:
+```python
+CLIENT_ID: Jomt_btpXsBqac61X3cO_Q
+CLIENT_SECRET: BxnFNZ8VGgwjo2GYuE17EzmAHh8w2w
+COMMENT_LIMIT: 2
+POST_LIMIT: 30
+```
+
+Maximum date:
+```python
+End Date: 2025-08-02 13:36:27.823893
+```
+Scraping k12 cybersecurity related subreddits/submissions:
+```python
+KEYWORDS:
+- cyber
+- firewall
+- network
+- security
+- k12
+- school
+- edtech
+- domain
+- block
+- ai
+- artifical
+- intelligence
+- vulnerabilities
+- issue
+- problem
+- difficulties
+OUTPUT_CSV: k12_firewall_posts.csv
+OUTPUT_JSON: k12_firewall_posts.json
+SUBREDDITS:
+- k12sysadmin
+- k12cybersecurity
+Start Date: 2025-01-01 00:00:00
+USER_AGENT: k12-cybersec-scraper/0.1 by TopEducator9706
+```
